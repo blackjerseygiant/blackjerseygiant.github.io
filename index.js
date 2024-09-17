@@ -17,7 +17,7 @@ function navigateTo(section) {
       contentDiv.innerHTML = `
         <img src="chicken.jpg" alt="chicken digging in golden hour" class="author-image">
         <div class="bio">
-          <p>Monique Ouk is a Cambodian-American writer. Her poetry has been recognized by Stanford University, nominated for the Pushcart Prize, and appears in The Seventh Wave and The Margins. She has received support from Jackson Hole Writers and 4Culture. Currently, Monique is working on a novel set in the Cambodian countryside.</p>
+          <p>Monique Ouk is a Cambodian-American writer. Her poetry has been recognized by Stanford University, nominated for the Pushcart Prize, and appears or is forthcoming in The Seventh Wave and The Margins. She has received support from Jackson Hole Writers and 4Culture. Currently, Monique is working on a novel set in the Cambodian countryside.</p>
         </div>`;
       document.getElementById('about-link').classList.add('active'); // Highlight the About link
     }
