@@ -1,0 +1,196 @@
+/* global styles */
+body {
+    margin: 0;
+    font-family: "Joan", serif;
+    background-color: white;
+  }
+  
+  .container {
+    max-width: 930px; 
+    margin: 0 auto;
+    padding: 0 20px; 
+    box-sizing: border-box;
+  }
+  
+  /* header styles */
+  header {
+    padding-top: 26px;
+    font-weight: lighter;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  header h1 {
+    font-size: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #3b3b3b;
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Active link styles */
+  nav a.active {
+    color: #417A26;
+  }
+  
+  .joan-regular {
+      font-family: "Joan", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+  /* Main Content Styles */
+  .author-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .bio {
+    margin-top: 10px; 
+    text-align: left;
+  }
+  
+  .bio p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Layouts for Smaller Screens */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%; 
+    }
+  
+    header h1 {
+      font-size: 24px; 
+    }
+  
+    nav a {
+      font-size: 16px;
+      margin-left: 10px;
+    }
+  
+    .author-image {
+      margin-top: 30px;
+    }
+  
+    .bio {
+      margin-top: 30px;
+    }
+  
+    .bio p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 22px; 
+    }
+  
+    nav a {
+      font-size: 14px;
+      margin-left: 8px;
+    }
+  
+    .author-image {
+      margin-top: 20px;
+    }
+  
+    .bio {
+      margin-top: 20px;
+    }
+  
+    .bio p {
+      font-size: 14px;
+    }
+  }
+  
+
+  /* writing section  */
+#content .bio ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  #content .bio ul li {
+    font-size: 20px; 
+    line-height: 1.2; 
+    margin-bottom: 10px; 
+  }
+  
+  #content .bio ul li a {
+    color: #3a6d55; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  #content .bio ul li a:hover {
+    text-decoration: underline; 
+  }
+  
+  /* general styles for the form container */
+#contact-form {
+    padding: 20px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  
+  /* form elements */
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  /* input fields */
+  #contact-form input[type="text"],
+  #contact-form input[type="email"],
+  #contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    font-size: 16px;
+  }
+  
+  /* textarea */
+  #contact-form textarea {
+    resize: vertical; 
+    min-height: 150px; 
+  }
+  
+  /* submit button */
+  #contact-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px; 
+    background-color: #618351; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #contact-form #result {
+    margin-top: 10px;
+    color: #7d7d7d;
+  }
+  
