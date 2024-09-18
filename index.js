@@ -117,7 +117,7 @@ function navigateTo(section) {
           If you found this page by googling “Cambodian-American poets” or “Cambodian-American writers,” 
           I hope this list helps you discover more voices, just as I did.
           </p>
-          <br><br><br>
+          <br><br>
         </div>`;
       document.getElementById('khmer-link').classList.add('active'); 
     }
