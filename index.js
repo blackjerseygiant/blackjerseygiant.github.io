@@ -110,9 +110,10 @@ function navigateTo(section) {
           </p>
           <p> * </p>
           <p>
-          I’ve been very fortunate to find other Cambodian-American writers in this past decade 
-          since I first came across Monica’s poetry. I’m in awe of our community and excited for the 
-          stories, novels, poems, and art that we will continue to share with each other and the world. 
+          I will never be able to fully articulate the emotion I felt upon realizing that a writer before me 
+          carried this pain too, yet still moved tenderly through her life. Since then, I’ve been fortunate to 
+          find other Cambodian-American writers over the past decade. I’m in awe of our community and excited 
+          for the stories, novels, poems, and art we will continue to share with each other and the world. 
           If you found this page by googling “Cambodian-American poets” or “Cambodian-American writers,” 
           I hope this list helps you discover more voices, just as I did.
           </p>
