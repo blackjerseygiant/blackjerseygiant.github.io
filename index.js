@@ -80,9 +80,8 @@ function navigateTo(section) {
                 <a href="https://www.instagram.com/cambodianarchives" target="_blank">@cambodianarchives</a>
 
           
-          <br>
+          <br><br>
           <h2>𓆝 𓆟 𓆞</h2>
-          <BR>
           <p>I first discovered the poet Monica Sok when I was fourteen.</p>
           <p>At the time, Loung Ung (<i>First They Killed My Father</i>) and Vaddey Ratner 
           (<i>In the Shadow of the Banyan</i>) were the only Cambodian authors that I knew of. 
