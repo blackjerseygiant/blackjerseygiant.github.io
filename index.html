@@ -19,44 +19,28 @@
     <div class="container">
       <h1>Monique Ouk <span>&#8203;</span> អ៊ុក ម៉ូនីក</h1>
       <nav>
-        <a href="#mo" id="about-link" class="active" onclick="navigateTo('about')">About</a>
-        <a href="#writing" id="writing-link" onclick="navigateTo('writing')">Writing</a>
-        <a href="#contact" id="contact-link" onclick="navigateTo('contact')">Contact</a>
-        <a href="#cambodianwriters" id="khmer-link" onclick="navigateTo('khmer')">🇰🇭</a>
+        <a href="index.html" class="active">About</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html">Contact</a>
+        <a href="cambodianwriters.html">🇰🇭</a>
       </nav>
     </div>
   </header>
 
   <!-- main content -->
   <main>
-    <div class="container" id="content">
+    <div class="container">
         <!-- Default content (About) -->
         <img src="chicken.jpg" alt="chicken digging in golden hour" class="author-image">
         <div class="bio">
           <p>Monique Ouk is a Cambodian-American writer. 
               Her poetry has been recognized by Stanford University, nominated for the Pushcart Prize, 
-              and appears or is forthcoming in The Seventh Wave and The Margins. She has received support from Jackson 
-              Hole Writers and 4Culture. Currently, Monique is working on a novel set in the Cambodian 
-              countryside.</p>
+              and appears or is forthcoming in The Seventh Wave and The Margins. She has received support from Jackson Hole Writers and 4Culture. Currently, Monique is working on a novel set in the Cambodian 
+              countryside.
+          </p>
+          <br>
         </div>
       </div>
   </main>
-
-  <!-- Contact Form (Initially Hidden) -->
-  <div id="contact-form" style="display: none;">
-    <h2>💌</h2>
-    <form method="POST" id="form">
-      <input type="hidden" name="access_key" value="f85e6a9a-7ac0-4dce-84d3-77ff00061390">
-      <input type="text" name="name" placeholder="name" required>
-      <input type="email" name="email" placeholder="email" required>
-      <textarea name="message" placeholder="message" required></textarea>
-      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-      <button type="submit">Submit</button>
-      <div id="result"></div>
-    </form>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="index.js"></script>
 </body>
 </html>
