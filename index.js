@@ -53,7 +53,7 @@ function navigateTo(section) {
                 <a href="https://www.sokunthary.com/about-me" target="_blank">Sokunthary Svay</a>,
                 <a href="https://www.pichchendabao.com/" target="_blank">Pichchenda Bao</a>,
                 <a href="https://www.bunkongtuon.com/" target="_blank">Bunkong Tuon</a>,
-                <a href="https://www.aprillim.com/" target="_blank">Alice Lim</a>
+                <a href="https://www.aprillim.com/" target="_blank">April Lim</a>
             </li><br>
 
             <li>Fiction:
@@ -77,24 +77,31 @@ function navigateTo(section) {
             
             <li>Archival projects:
                 <a href="https://www.coloringcambodia.com/about" target="_blank">Coloring Cambodia</a>,
-                <a href="https://www.instagram.com/cambodianarchives" target="_blank">@cambodianarchives</a>
+                <a href="https://www.instagram.com/cambodianarchives" target="_blank">@cambodianarchives</a>,
+                <a href="https://www.deathincambodiapodcast.com/" target="_blank">Death in Cambodia Podcast</a>
+            </li><br>
+
+            <li>Community:
+                <a href="https://www.mamsbooks.com/" target="_blank">mam's books</a>,
+                <a href="https://instagram.com/beyondthemekong/" target="_blank">@beyondthemekong</a>
+            </li>
 
           
           <br><br>
           <h2>𓆝 𓆟 𓆞</h2>
           <p>I first discovered the poet Monica Sok when I was fourteen.</p>
-          <p>At the time, Loung Ung (<i>First They Killed My Father</i>) and Vaddey Ratner 
-          (<i>In the Shadow of the Banyan</i>) were the only Cambodian authors that I knew of. 
-          Almost everything else I came across from the diaspora was centered on genocide. Make no mistake: 
-          this literature is essential. As a pre-teen, I devoured every Cambodian genocide memoir or novel 
-          I could find at my local library, seeking answers to the questions I was too afraid to ask my own parents. 
-          But at some point, the weight of these emotions—shaped by my parents’ survival, our losses, and what 
-          I inherited—grew too heavy to hold. I needed to understand of the rest of my world.</p>
-          <p>When I first googled "cambodian american poet," I was desperate to find someone like me, a 
-          child of genocide survivors, who could help me make sense of the joy and grief and loss and guilt and nostalgia 
-          that I carried.  Monica Sok was the first, and at the time, the only writer I found, but possibly the 
-          most impactful to me since. Here I was, alone in my bedroom, reading words that I swore were taken 
-          from my own life too:
+          <p>At the time, Loung Ung (<i>First They Killed My Father</i>) and Vaddey Ratner (<i>In the Shadow of the Banyan</i>)
+          were the only Cambodian authors that I knew of. Everything I came across from the diaspora recounted the genocide. 
+          But make no mistake: this literature is essential. As a pre-teen, I devoured every Cambodian genocide memoir or novel 
+          I could find at my local library, seeking answers to the questions I was too afraid to ask my own parents. At some point, 
+          however, the weight of these emotions—shaped by the knowledge of what my parents survived, what they lost, and what I 
+          inherited—grew too heavy to hold. I needed to understand of the rest of my world.
+          </p>
+          <p>
+          When I first googled "cambodian american poet," I was desperate to find someone like me, a child of genocide survivors, 
+          who could help me make sense of the joy and grief and loss and guilt and nostalgia that I carried. Monica Sok was the first, 
+          and at the time, the only writer I found, and has remained one of the most significant people to me. Here I was, alone in my 
+          bedroom, reading words that I swore were taken from my own life too:
           </p>
           <p>
           "I want to know the names of things, <br>
@@ -110,12 +117,12 @@ function navigateTo(section) {
           </p>
           <p> * </p>
           <p>
-          I will never be able to fully articulate the emotion I felt upon realizing that a writer before me 
-          carried this pain too, yet still moved tenderly through her life. Since then, I’ve been fortunate to 
-          find other Cambodian-American writers over the past decade. I’m in awe of our community and excited 
-          for the stories, novels, poems, and art we will continue to share with each other and the world. 
-          If you found this page by googling “Cambodian-American poets” or “Cambodian-American writers,” 
-          I hope this list helps you discover more voices, just as I did.
+          I will never be able to fully articulate the emotions I felt upon realizing that a writer before me carried this pain too, 
+          yet still moved tenderly and powerfully through her life. Since then, I’ve been fortunate to find other Cambodian-American 
+          writers over the past decade, both from my parents’ generation and my own. I’m in awe of our community and excited for the 
+          stories, novels, poems, and art we will continue to share with each other and the world. 
+          If you found this page by googling “Cambodian-American poets” or “Cambodian-American writers,” I hope this list helps you 
+          discover more voices, just as I did.
           </p>
           <br><br>
         </div>`;
@@ -162,4 +169,3 @@ function navigateTo(section) {
       }, 3000);
     });
   });
-  
