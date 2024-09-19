@@ -42,12 +42,13 @@ body {
   }
   
   nav a:hover {
-    text-decoration: underline;
+    color: #c4c4c4;
   }
   
   /* Active link styles */
   nav a.active {
     color: #417A26;
+    border-bottom: 2px solid #417A26;
   }
   
   .joan-regular {
@@ -153,29 +154,29 @@ body {
   
 
   /* writing section  */
-#content .bio ul {
+.bio ul {
     list-style-type: none; 
     padding: 0;
   }
   
-  #content .bio ul li {
-    font-size: 22px; 
+.bio ul li {
+    font-size: 21px; 
     line-height: 1.3; 
     margin-bottom: 10px; 
   }
   
-  #content .bio ul li a {
+  .bio ul li a {
     color: #3a6d55; 
     text-decoration: none; 
     font-weight: bold; 
   }
   
-  #content .bio ul li a:hover {
+  .bio ul li a:hover {
     text-decoration: underline; 
   }
   
   @media (max-width: 480px) {
-     #content .bio ul li {
+     .bio ul li {
         font-size: 20px; 
         line-height: 1.2; 
         margin-bottom: 10px; 
@@ -183,7 +184,7 @@ body {
   }
 
  @media (max-width: 380px) {
-     #content .bio ul li {
+     .bio ul li {
         font-size: 18px; 
         line-height: 1.2; 
         margin-bottom: 10px; 
@@ -196,8 +197,8 @@ body {
   line-height: 1.5;
 }
 
-.khmer-essay li ul {
-  font-size: 16px;
+.khmer-essay ul li {
+  font-size: 20px;
 }
 
 
@@ -247,4 +248,3 @@ body {
     margin-top: 10px;
     color: #7d7d7d;
   }
-  
