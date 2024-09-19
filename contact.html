@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MONIQUE OUK - Contact</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <meta name="Description" content="Monique Ouk - contact me! :)"/>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Monique Ouk <span>&#8203;</span> អ៊ុក ម៉ូនីក</h1>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="cambodianwriters.html">🇰🇭</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <div id="contact-form">
+      <h1>💌</h1>
+      <form method="POST" id="form">
+          <input type="hidden" name="access_key" value="f85e6a9a-7ac0-4dce-84d3-77ff00061390">
+          <input type="text" id="name" name="name" placeholder="name" required>
+          <input type="email" id="email" name="email" placeholder="email" required>
+          <textarea id="message" name="message" rows="5" placeholder="message" required></textarea>
+
+          <!--spam protection-->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <button type="submit">submit</button>
+
+          <div id="result"></div>
+      </form>
+  </div>
+
+  <script>
+      const form = document.getElementById('form');
+      const result = document.getElementById('result');
+
+      form.addEventListener('submit', function(e) {
+          e.preventDefault(); // Prevent the form from submitting the traditional way
+
+          const formData = new FormData(form); // Collect the form data
+          const object = Object.fromEntries(formData); // Convert the form data to an object
+          const json = JSON.stringify(object); // Convert the object to JSON
+
+          result.innerHTML = "please wait... 🪿"; // Show waiting message
+
+          fetch('https://api.web3forms.com/submit', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/json'
+              },
+              body: json
+          })
+          .then(async (response) => {
+              let json = await response.json(); // Parse the JSON response
+              if (response.status == 200) {
+                  result.innerHTML = "message sent! 🍃";
+              } else {
+                  console.log(response);
+                  result.innerHTML = json.message;
+              }
+          })
+          .catch(error => {
+              console.log(error);
+              result.innerHTML = "Something went wrong!";
+          })
+          .then(function() {
+              form.reset(); // Reset the form after submission
+              setTimeout(() => {
+                  result.style.display = "none"; // Hide result message after 3 seconds
+              }, 3000);
+          });
+      });
+  </script>
+
+</body>
+</html>
